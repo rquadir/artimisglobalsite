@@ -24,5 +24,5 @@ source ~/.bashrc
 # @applyfiles error on jekyll build
 - `sudo umount /mnt/d``
 - `sudo mount -t drvfs D: /mnt/d -o metadata` here D: is drive that has my artimisglobalsite folder. specify your drive.
-- `sudo chmod -R 777 /mnt/d/SH/artimisglobalsite/` or `sudo chown -R rashedul /mnt/d/SH/artimisglobalsite/` here /mn/d/SH/artimisglobalsite is path to my site. specify your path. Here rashedul is my account name. specify your account name
+- `sudo chmod -R 777 /mnt/d/SH/AG/artimisglobalsite/` or `sudo chown -R rashedul /mnt/d/SH/AG/artimisglobalsite/` here /mn/d/SH/AG/artimisglobalsite is path to my site. specify your path. Here rashedul is my account name. specify your account name
 - Refer stackoverflow - https://stackoverflow.com/questions/57243299/jekyll-operation-not-permitted-apply2files and https://stackoverflow.com/questions/46610256/chmod-wsl-bash-doesnt-work
