@@ -1504,3 +1504,11 @@ section {
 .pad-bot-30{
   padding-bottom: 30px;
 }
+
+.text-justify {
+  text-align: justify;
+}
+
+.product-tile-min-width {
+  min-width: 195px;
+}
