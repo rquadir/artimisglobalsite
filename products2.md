@@ -1,5 +1,5 @@
 ---
 layout: product_test2
-title: Product
+title: Artimis Ltd
 permalink: /product_test2/
 ---
