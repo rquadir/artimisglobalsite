@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gothic", sans-serif; /* "Open Sans" */
   color: #444444;
 }
 
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  /* background: rgba(0, 0, 0, 0.4); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -655,7 +655,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
+  padding: 24px;
   position: relative;
   overflow: hidden;
   margin: 0;
@@ -687,7 +687,7 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -1507,6 +1507,13 @@ section {
 
 .text-justify {
   text-align: justify;
+  /* text-justify: distribute; */
+}
+
+.about-section-text-container{
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
 }
 
 .product-tile-min-width {
@@ -1562,6 +1569,20 @@ section {
   }
 }
 
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .product-tile-min-width {
+    min-width: 204px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.services .icon-box {
+  padding: 27px;
+  }
+.product-tile-min-width {
+  min-width: 155px;
+  }
+}
 
 /* .flex-item-right {
   background-color: dodgerblue;
